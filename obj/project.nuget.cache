@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BV61oi/klYhgsTPH06fbXHh5VyPGtWH2C404RvyHfRAg1GqqEvFGxMMna2WPaqj5ne5e2YDjDWs3KVyHPw+IbQ==",
+  "dgSpecHash": "JnU7hV/hVM/luYeMUPBM8lcFxvsE8Nkk9YZyhnNsUqZlDfc4X2QOe1yGusyY0wDZAPNQZp2fDccoUOhVNq6OVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\20201034010037\\Downloads\\WebApiUniversidade\\WebApiUniversidade.csproj",
+  "projectFilePath": "C:\\Users\\20201034010037\\WebApiUniversidade\\WebApiUniversidade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\20201034010037\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\20201034010037\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
