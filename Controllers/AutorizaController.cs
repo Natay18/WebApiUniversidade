@@ -12,6 +12,7 @@ using System.Security.Cryptography;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authorization;
 
 namespace apiUniversidade.Controllers
 {
@@ -36,7 +37,7 @@ namespace apiUniversidade.Controllers
 
                 JwtSecurityToken token = new JwtSecurityToken(
                     issuer: _configuration ["TokenConfiguration:Issuer"],
-                    audience: _configuration ["TokenConfiguration: Audience"],
+                    audience: _configuration ["TokenConfiguration:Audience"],
                     claims: claims,
                     expires: expiration,
                     signingCredentials: credentials
@@ -83,7 +84,7 @@ namespace apiUniversidade.Controllers
                 return BadRequest(result.Errors);
                 
             await _signInManager.SignInAsync(user, false);
-            return Ok();    
+            return Ok(GeraToken(model));    
         }
 
         [HttpPost("Login")]
@@ -93,7 +94,7 @@ namespace apiUniversidade.Controllers
                 isPersistent: false, lockoutOnFailure: false);
 
             if (!result.Succeeded)
-                return Ok();
+                return Ok(GeraToken(UserInfo));
             else{
                 ModelState.AddModelError(string.Empty, "Login Inválido...");
                 return BadRequest(ModelState);

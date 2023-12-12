@@ -47,3 +47,11 @@ C:\Users\20201034010037\WebApiUniversidade\obj\Debug\net7.0\refint\WebApiUnivers
 C:\Users\20201034010037\WebApiUniversidade\obj\Debug\net7.0\WebApiUniversidade.pdb
 C:\Users\20201034010037\WebApiUniversidade\obj\Debug\net7.0\WebApiUniversidade.genruntimeconfig.cache
 C:\Users\20201034010037\WebApiUniversidade\obj\Debug\net7.0\ref\WebApiUniversidade.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\20201034010037\WebApiUniversidade\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
